@@ -87,14 +87,14 @@ header .navegacao-primaria li a:hover::after {
 }
 
 .section-div div h2 {
-    font-family: 'Poppins';
+    font-family: 'Arial';
     font-weight: 600;
     color: #f7f7f7;
 }
 
 .section-div div p {
-    font-family: 'Poppins';
-    font-weight: 200;
+    font-family: 'Arial';
+    font-weight: 100;
     color: #f7f7f7;
 }
 
@@ -172,12 +172,12 @@ main .sobre {
     font-size: 2.5rem;
     color: #F59538;
     margin-bottom: 15px;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Arial' cursive;
 }
 
 .sobre_titulo p {
     color: #707070;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
     position: relative;
 }
@@ -297,7 +297,7 @@ main .sobre {
     }
 
     .section-div {
-        background-image: url(img/pessoa\ ilustrativa.png);
+        background-image: url(img/pessoa\ fotodehomen.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -317,7 +317,7 @@ main .sobre {
     }
 
     header .navegacao-primaria.ativado {
-        background: linear-gradient(rgba(43, 42, 42, 0.176), rgba(46, 46, 46, 0.724));
+        background: linear-gradient(rgba(48, 29, 29, 0.176), rgba(46, 46, 46, 0.724));
         position: absolute;
         display: grid;
         top: 80px;
@@ -355,7 +355,7 @@ main .sobre {
 
 
 .my_services {
-    padding: 60px;
+    padding: 62px;
     color: white;
 }
 
@@ -371,30 +371,30 @@ main .sobre {
     cursor: pointer;
     border-radius: 6px;
     position: relative;
-    padding: 10px;
+    padding: 5px;
     display: grid;
     gap: 30px;
     text-align: center;
-    max-width: 300px;
+    max-width: 415px;
     align-content: center;
-    height: 300px;
+    height: 415px;
     background-color: #222;
 }
 
 .my_services ul li i {
-    font-size: 2.7rem;
+    font-size: 1.0rem;
     color: #F59538;
 }
 
 .my_services ul li h3 {
     color: #fff;
-    font-size: 1.6rem;
-    font-family: 'poppins';
+    font-size: 1.0rem;
+    font-family: 'Arial', cursive;
     font-weight: 500;
 }
 
 .my_services ul li p {
-    color: #707070;
+    color: #ffffff;
     font-size: 1.1rem;
 }
 
@@ -442,7 +442,16 @@ main .sobre {
 /* SOBRE MINHAS EXPERIÊNCIAS */
 
 .my_resume {
-    color: #f7f7f7;
+    color: #ffffff;
+}
+
+.my_resume h1 {
+    font-family: Arial, Helvetica, sans-serif, cursive;
+}
+
+.my_resume p {
+    color: white;
+    font-family: 'arial', cursive;
 }
 
 .resume_gerenico {
@@ -455,7 +464,7 @@ main .sobre {
 }
 
 .resume_gerenico h2 {
-    font-family: 'Poppins';
+    font-family: 'Arial', cursive;
     font-size: 1.5rem;
     background-color: #F59538;
     justify-self: start;
@@ -764,7 +773,7 @@ main .sobre {
     display: grid;
     gap: 40px;
     justify-content: center;
-    background-color: #151515;
+    background-color: #221e1edc;
 }
 
 .projects ul {
@@ -775,7 +784,7 @@ main .sobre {
 
 .project_models ul li {
     cursor: pointer;
-    font-family: 'Poppins';
+    font-family: 'arial',cursive;
     background-color: #222;
     border: 1px solid #333;
     color: #707070;
@@ -803,6 +812,11 @@ main .sobre {
     height: 100%;
 }
 
+.projects p {
+    font-family: 'Arial', cursive;
+    color: white;
+    font-size: 1rem;
+}
 
 
 .projects_armazenamento ul li.ativo {
@@ -859,7 +873,7 @@ footer {
 
 .footer_sociais li {
     border-radius: 50%;
-    background-color: #212020;
+    background-color: #c0b6b6;
     border: 1px solid #333;
 }
 
@@ -881,7 +895,7 @@ footer {
     bottom: -30px;
     height: 5px;
     width: 200px;
-    background-color: #222;
+    background-color: #c0b6b6;
 }
 
 footer .footer_comercial {
@@ -889,5 +903,5 @@ footer .footer_comercial {
     color: #ffffff;
     font-size: 1.5rem;
     margin: 90px 0;
-    font-family: 'Poppins';
+    font-family: 'arial',cursive;
 }
