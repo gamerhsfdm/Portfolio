@@ -898,3 +898,14 @@ footer .footer_comercial {
     margin: 90px 0;
     font-family: 'arial',cursive;
 }
+
+
+/* Scrollbar do site */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #F59538;
+}
