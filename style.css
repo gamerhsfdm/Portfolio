@@ -297,7 +297,7 @@ main .sobre {
     }
 
     .section-div {
-        background-image: url(img/pessoa\ fotodehomen.png);
+        background-image: url(imgs/fotodehomem.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -371,13 +371,13 @@ main .sobre {
     cursor: pointer;
     border-radius: 6px;
     position: relative;
-    padding: 5px;
+    padding: 10px;
     display: grid;
-    gap: 30px;
+    gap: 20px;
     text-align: center;
-    max-width: 415px;
+    max-width: 380px;
     align-content: center;
-    height: 415px;
+    height: 380px;
     background-color: #222;
 }
 
@@ -395,7 +395,7 @@ main .sobre {
 
 .my_services ul li p {
     color: #ffffff;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
 }
 
 .my_services li::before {
