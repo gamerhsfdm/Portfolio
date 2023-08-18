@@ -769,9 +769,9 @@ main .sobre {
 /* PROJECTS */
 
 .projects {
-    padding: 40px;
+    padding: 20px;
     display: grid;
-    gap: 40px;
+    gap: 20px;
     justify-content: center;
     background-color: #221e1edc;
 }
@@ -779,7 +779,7 @@ main .sobre {
 .projects ul {
     justify-content: center;
     display: flex;
-    gap: 40px;
+    gap: 20px;
 }
 
 .project_models ul li {
@@ -788,7 +788,7 @@ main .sobre {
     background-color: #222;
     border: 1px solid #333;
     color: #707070;
-    padding: 6px 20px;
+    padding: 4px 10px;
 }
 
 .project_models ul li.ativo {
@@ -811,13 +811,6 @@ main .sobre {
     max-width: 100%;
     height: 100%;
 }
-
-.projects p {
-    font-family: 'Arial', cursive;
-    color: white;
-    font-size: 1rem;
-}
-
 
 .projects_armazenamento ul li.ativo {
     display: block;
@@ -880,7 +873,7 @@ footer {
 .footer_sociais li i {
     padding: 30px;
     font-size: 1.5rem;
-    color: 363636;
+    color: #363636;
 }
 
 .footer_sociais li:hover {
