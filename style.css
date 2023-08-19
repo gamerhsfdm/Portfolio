@@ -463,7 +463,7 @@ main .sobre {
     grid-template-columns: 1fr 1fr;
 }
 
-.resume_gerenico h2 {
+.resume_gerenico h1 {
     font-family: 'Arial', cursive;
     font-size: 1.5rem;
     background-color: #F59538;
@@ -624,7 +624,7 @@ main .sobre {
     margin-bottom: 30px;
 }
 
-.my_skill h2 i {
+.my_skill h1 i {
     padding-right: 10px;
 }
 
@@ -655,7 +655,7 @@ main .sobre {
     grid-template-columns: 1fr 1fr;
 }
 
-.funfacts h2 {
+.funfacts h1 {
     grid-column: 1/-1;
     padding: 10px 30px;
     border-radius: 3px;
@@ -666,7 +666,7 @@ main .sobre {
     margin-bottom: 30px;
 }
 
-.funfacts h2 i {
+.funfacts h1 i {
     padding-right: 10px;
 }
 
@@ -741,7 +741,7 @@ main .sobre {
         grid-template-columns: 1fr;
     }
 
-    .cursos .funfacts h2 {
+    .cursos .funfacts h1 {
         justify-self: center;
     }
 
@@ -753,7 +753,7 @@ main .sobre {
         grid-column: 1/-1;
     }
 
-    .cursos .my_skill h2 {
+    .cursos .my_skill h1 {
         justify-self: center;
     }
 
